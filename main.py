@@ -60,7 +60,7 @@ def pwd():
 # function to list directory using command ls
 def ls():
     global path_list
-    # checking if path is exist in root list if yes than we assign directory list to path list and print path list
+   # checking the length of path_list
     if len(path_list) == 0:
         print("no directory is available or created")
     else:
